@@ -1,0 +1,18 @@
+name = input("Please enter your name: ")
+age = int(input("How old are you, {0}? ".format(name)))
+# if age >=18:
+#     print("You can vote")
+#     print("Please put an X in the box")
+# else:
+#     print("Please come back in {0} years".format(18-age))
+
+if age < 18:
+    print("Please come back in {0} years".format(18-age))
+elif age == 900:
+    print(" lets face it thats a lie")
+else:
+    print("You can vote")
+    print("Please put an X in the box")
+
+
+
