@@ -14,4 +14,3 @@ for number in numbers:
 else: # has to be with the level ofthe FOE
     print("All those numbers are fine")
     #its only the indentation level that ties the else to the for
-    
